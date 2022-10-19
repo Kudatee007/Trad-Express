@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd7269fc.css",
+    "main.js": "/static/js/main.bf432398.js",
+    "static/js/787.93c19266.chunk.js": "/static/js/787.93c19266.chunk.js",
+    "static/media/amico.svg": "/static/media/amico.bf428b3967f158fb8f478d6f3a867097.svg",
+    "static/media/cuate.svg": "/static/media/cuate.da17b1a70b695992bd3e6a2f8bf0c692.svg",
+    "static/media/ireti.svg": "/static/media/ireti.f80fc09fef1f0a569b9505e71c7f6a6e.svg",
+    "static/media/Group 127.png": "/static/media/Group 127.053026f771d73c16fd0d.png",
+    "static/media/cuate.png": "/static/media/cuate.161c4fb0af9e818a653b.png",
+    "static/media/bayo.svg": "/static/media/bayo.55a234ebe9bab727cd1d6dbdef3a7527.svg",
+    "static/media/rafiki.svg": "/static/media/rafiki.3edcb4c2c0e7de3c0d09997e0aab74f0.svg",
+    "static/media/rafiki.png": "/static/media/rafiki.09fcd1cb1ae9f2ece4ea.png",
+    "static/media/olagoke.svg": "/static/media/olagoke.8298b34238a6d9dfdb4b30a92dde5be4.svg",
+    "static/media/cc.svg": "/static/media/cc.5f697a04ff6be5797d1e82e67092ce24.svg",
+    "static/media/messageicon.svg": "/static/media/messageicon.9ecccf37f72407687bc49344b95f3362.svg",
+    "static/media/dd.svg": "/static/media/dd.ea67e087abe32ced535263656320de18.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.fd7269fc.css.map": "/static/css/main.fd7269fc.css.map",
+    "main.bf432398.js.map": "/static/js/main.bf432398.js.map",
+    "787.93c19266.chunk.js.map": "/static/js/787.93c19266.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd7269fc.css",
+    "static/js/main.bf432398.js"
+  ]
+}

@@ -1,0 +1,312 @@
+.landin{
+    text-align: center;
+    
+}
+.landin>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #26093A;
+    padding-top: 70px;
+}
+.landin>button{
+    width: 14%;
+    height: 45px;
+    background: #EDE9EF;
+    border: 1px solid #7C20BE;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;   
+    color: #7C20BE;
+}
+.landin>button:hover{
+    background-color: thistle;
+    color: black;
+}
+.payment{
+    width: 77%;
+    height: 338px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.LandingPage2{
+    background-color: #EDE9EF;
+    width: 100%;
+    padding-bottom: 7%;
+}
+.payment>img{
+    height: 113.12px;
+}
+.payment>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #26093A;
+}
+.payment>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width: 40ch;
+    margin: 0 auto;
+    color: #26093A;
+}
+.freelancer{
+    width: 77%;
+    height: 338px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+.freelancer>img{
+    height: 113.81px;
+}
+.freelancer>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #26093A;
+}
+.freelancer>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #26093A;
+    width: 44ch;
+    margin: 0 auto;
+}
+.investment{
+    width: 77%;
+    height: 338px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+.investment>img{
+    height: 121.16px;
+}
+.investment>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #26093A;
+}
+.investment>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #26093A;
+    width: 47ch;
+    margin: 0 auto;
+}
+.land{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 100px;
+}
+
+@media (max-width: 1200px) {
+    .payment{
+        width: 80%;
+    }
+    .freelancer{
+        width: 80%;
+    }
+    .freelancer>p{
+        width: 41ch;
+    }
+    .investment{
+        width: 80%;
+    }
+    .investment>p{
+        width: 40ch;
+    }
+   
+}
+@media (max-width: 1050px) {
+    .payment>p{
+        width: 35ch;
+    }
+    .freelancer>p{
+        width: 35ch;
+    }
+    .investment>p{
+        width: 35ch;
+    }
+    .payment{
+        width: 85%;
+    }
+    .freelancer{
+        width: 85%;
+    }
+    .investment{
+        width: 85%;
+    }
+}
+@media (max-width: 850px) {
+    .land{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        padding-left: 80px;
+    }
+    .payment{
+        width: 80%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;  
+    }
+    .freelancer{
+        width: 80%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    .investment{
+        width: 80%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;
+        margin-left: 50%;
+        margin-top: 17%;
+
+    }
+   .landin>h1{
+    font-size: 25px;
+    font-weight: 700;
+   }
+}
+@media (max-width: 600px) {
+    .land{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+        padding-left: 150px;
+       
+
+    }
+    .payment{
+        width: 70%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;  
+        margin-top: 11%;
+    }
+    .freelancer{
+        width: 70%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;
+        margin-top: 11%;
+    }
+    .investment{
+        width: 70%;
+        height: 338px;
+        text-align: center;
+        padding-top: 70px;
+        margin-top: 11%;
+        margin-left: 0;
+
+    }
+   .landin>h1{
+    font-size: 28px;
+    font-weight: 700;
+    width: 30ch;
+    margin: 0 auto;
+   }
+   .payment>p{
+    width: 40ch;
+  }
+   .freelancer>p{
+    width: 44ch;
+  }
+   .investment>p{
+    width: 47ch;
+  }
+  .landin>button{
+    width: 22%;
+    height: 45px;
+}
+}
+@media (max-width: 500px) {
+    .payment>p{
+        width: 39ch;
+    }
+       .freelancer>p{
+        width: 37ch;
+    }
+       .investment>p{
+        width: 40ch;
+    }
+      .payment{
+        width: 83%;
+    }
+      .freelancer{
+        width: 83%;
+    }
+      .investment{
+        width: 83%;
+    }
+      .landin>button{
+        width: 30%;
+    }
+    .landin>h1{
+        font-size: 28px;
+        font-weight: 700;
+        width: 24ch;
+        margin: 0 auto;
+    }
+    .land{
+        padding-left: 80px;
+    }
+}
+@media (max-width: 400px) {
+    .payment{
+        width: 75%;
+      }
+      .freelancer{
+        width: 75%;
+      }
+      .investment{
+        width: 75%;
+      }
+      .payment>p{
+        width: 37ch;
+      }
+       .freelancer>p{
+        width: 28ch;
+      }
+       .investment>p{
+        width: 30ch;
+      }
+      .landin>h1{
+        font-size: 26px;
+        font-weight: 700;
+        width: 24ch;
+        margin: 0 auto;
+      }
+
+}

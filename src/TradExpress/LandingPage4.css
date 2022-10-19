@@ -1,0 +1,120 @@
+.LandingPage4{
+    text-align: center;
+    background-color: #EDE9EF;
+    width: 100%;
+}
+.LandingPage4>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #292929;
+    padding-top: 59px;
+}
+.LandingPage4>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #26093A;   
+}
+button.buTT{
+    width: 307px;
+    height: 47px;
+    background: #7C20BF;
+    border-radius: 5.12972px;
+    border-style: none;
+    margin-top: 44px;
+    margin-bottom: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #FFFFFF;
+}
+button.buTT:hover{
+    background-color: thistle;
+    color: black;
+}
+.appPlay{
+    padding-bottom: 90.88px;
+
+}
+@media (max-width: 900px) {
+.LandingPage4>p{
+    font-size: 16px;
+}
+.LandingPage4>h1{
+    font-size: 28px;
+}
+.LandingPage4>button{
+    width: 270px;
+}
+.appPlay{
+    width: 450px;
+    margin: 0 auto;
+}
+.appp{
+    width: 30%;
+}
+.plaay{
+    width: 30%;
+}
+}
+@media (max-width: 700px) {
+    .LandingPage4>p{
+        font-size: 100%;
+    }
+    .LandingPage4>h1{
+        font-size: 24px;
+    }
+}
+@media (max-width: 600px) {
+    .LandingPage4>h1{
+        font-size: 26px;
+        width: 30ch;
+        margin: 0 auto;
+    }
+    .LandingPage4>button{
+        width: 230px;
+    }
+    .appPlay{
+        width: 390px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 450px) {
+    .LandingPage4>h1{
+        font-size: 23px;
+    }
+    .LandingPage4>p{
+        font-size: 17px;
+        width: 40ch;
+        margin: 0 auto;
+    }
+    .LandingPage4>button{
+        width: 200px;
+    }
+    .appPlay{
+        width: 340px;
+    }
+}
+@media (max-width: 400px) {
+    .LandingPage4>h1{
+        font-size: 21px;
+    }
+    .LandingPage4>p{
+        font-size: 16px;
+
+    }
+    .LandingPage4>button{
+        width: 170px;
+        height: 48px;
+    }
+    .appPlay{
+        width: 320px;
+    }
+}

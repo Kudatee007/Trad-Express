@@ -1,0 +1,36 @@
+.btnLog{
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    background-color: #7C20BE;
+    border: 1px solid white;
+}
+.btnLog:hover{
+    background-color: thistle;
+    color: black;
+}
+.btnStart{
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: #7C20BE;
+}
+.btnStart:hover{
+    background-color: thistle;
+    color: black;
+}
+nav.navbar{
+    background-color: #7C20BE;
+}
+.insBs{
+    text-decoration: none;
+    color: white;
+}
+a.nav-link{
+    color: white;
+}
+
+

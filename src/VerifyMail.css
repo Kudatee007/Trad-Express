@@ -1,0 +1,235 @@
+.VerifyMail{
+
+    background-color: #FFFFFF;
+}
+.Verify{
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+    height: 730px;
+    background: #FBF8FD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+.Verify>h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;  
+    padding-top: 13%;  
+    padding-bottom: 3%;
+}
+.Verify>h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;  
+    padding-bottom: 3%;  
+}
+.kuda{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+    text-align: center;
+    color: #000000;
+    padding-top: 7%;  
+    width: 57ch;  
+    margin: 0 auto;
+    padding-bottom: 14%;
+}
+.Verify>button{
+    width: 47%;
+    height: 48px;
+    background: #7C20BF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;  
+    color: #FFFFFF;    
+}
+.Here11{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+.here1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;    
+}
+.here11{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7C20BF;    
+}
+@media (max-width: 1300px) {
+    .Verify{
+        width: 50%;
+    }
+}
+@media (max-width: 1100px) {
+    .Verify{
+        width: 57%;
+        height: 710px;
+    }
+}
+@media (max-width: 1000px) {
+    .Verify{
+        width: 60%;
+        height: 680px;
+    }
+    .Here11{
+        width: 40%;
+    }
+}
+@media (max-width: 900px) {
+    .Verify{
+        height: 660px;
+    }
+    .Here11{
+        width: 43%;
+    }
+}
+@media (max-width: 830px) {
+    .Verify{
+        width: 63%;
+        height: 640px;
+        margin-top: 7%;
+    }
+    .Here11{
+        width: 43%;
+    }
+    .here1{
+        font-size: 13px;
+    }
+    .here11{
+        font-size: 13px;
+    }
+}
+@media (max-width: 740px) {
+    .Verify{
+        width: 66%;
+        height: 630px;
+    }
+}
+@media (max-width: 700px) {
+    .Verify{
+        width: 70%;
+        height: 630px;
+    }
+    .Here11{
+        width: 44%;
+    }
+    .kuda{
+        width: 50ch;
+    }
+}
+@media (max-width: 640px) {
+    .Verify{
+        width: 74%;
+        height: 630px;
+    }
+}
+@media (max-width: 600px) {
+    .Verify>img{
+        width: 27%;
+    }
+    .Verify>h2{
+        font-size: 30px;
+    }
+    .Verify>h1{
+        font-size: 32px;
+    }
+    .Here11{
+        width: 46%;
+    }
+    .Verify{
+        width: 74%;
+        height: 630px;
+    }
+    .Verify{
+        width: 74%;
+        height: 580px;
+    }
+}
+@media (max-width: 570px) {
+    .Verify{
+        width: 74%;
+        height: 565px;
+       
+    }
+    .Verify>button{
+        width: 51%;
+        height: 45px;
+    }
+    .kuda{
+        font-size: 13px;
+    }
+    .here1{
+        font-size: 12px;
+    }
+}
+@media (max-width: 520px) {
+    .Verify{
+        width: 77%;
+        margin-top: 9%;
+    }
+    .kuda{
+        font-size: 12.5px;
+    }
+    .Here11{
+        width: 48%;
+    }
+}
+@media (max-width: 500px) {
+    .Verify{
+        width: 80%;
+        height: 555px;
+    }
+    .kuda{
+        font-size: 12.3px;
+    }
+}
+@media (max-width: 480px) {
+    .kuda{
+        width: 40ch;
+    }
+    .Verify{
+        width: 82%;
+        height: 560px;
+    }
+    .Here11{
+        width: 50%;
+    }
+}
+@media (max-width: 450px) {
+   
+    .here1{
+        width: 15ch;
+    }
+}
+@media (max-width: 400px) {
+   .Verify{
+    width: 84%;
+    height: 530px;
+   }
+}
+

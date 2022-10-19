@@ -1,0 +1,226 @@
+.GetStarted>h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.indiBusi{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 200px;
+    background-color: #E4E4E4;
+}
+.indi{
+    background-color: #FFFFFF;
+}
+.busi{
+    background-color: #E4E4E4;
+}
+.indiBusi>button{
+    width: 50%;
+    height: 39px;
+    border-radius: 24px;
+    border: none;
+}
+form>input{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 48px;
+    border: none;
+    padding: 0px 22px;
+    margin-top: 6%;
+}
+form{
+    width: 80%;
+
+}
+.GetStarted{
+    text-align: center;
+    width: 47%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #EEEDEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.clicKing{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    width: 50ch;
+    margin: 0 auto;
+}
+.clicKing>span{
+    color: #7C20BF;   
+}
+.SignUpp{
+    width: 70%;
+    height: 48px;
+    background: #7C20BF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.SignUpp:hover{
+    background-color: thistle;
+    color: black;
+}
+.AlreadyC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 4.5%;
+}
+.alreadyHere{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7C20BF;
+}
+.already{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.StartedGet{
+    background-color: #FFFFFF;
+    padding-bottom: 120px;
+   
+}
+@media (max-width: 1300px) {
+.AlreadyC{
+    width: 40%;
+}
+
+}
+@media (max-width: 1100px) {
+    .AlreadyC{
+        width: 45%;
+    }
+    .GetStarted{
+        width: 50%;
+        
+    }
+}
+@media (max-width: 1000px) {
+    .AlreadyC{
+        width: 45%;
+    }
+    .clicKing{
+        font-size: 80%;
+    }
+   
+}
+@media (max-width: 900px){
+    .AlreadyC{
+        width: 50%;
+    }
+    form>input{
+        height: 43px;
+    }
+    .SignUpp{
+        height: 45px;
+    }
+    .GetStarted{
+        width: 55%;
+      
+    }
+
+}
+
+@media (max-width: 700px){
+    .GetStarted{
+        width: 66%;
+        margin-top: 7%;
+    }
+    .AlreadyC{
+        width: 50%;
+    }
+}
+@media (max-width: 630px){
+    .GetStarted{
+        width: 70%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 590px){
+    .GetStarted{
+        width: 75%;
+    }
+    .AlreadyC{
+        width: 56%;
+    }
+}
+@media (max-width: 500px){
+    .GetStarted{
+        width: 80%;
+        margin-top: 13%;
+    }
+    .AlreadyC{
+        width: 59%;
+    }
+}
+@media (max-width: 440px){
+    form>input{
+        height: 40px;
+    }
+    .SignUpp{
+        height: 43px;
+    }
+    .alreadyHere{
+        font-size: 13px;
+    }
+    .already{
+        font-size: 13px;
+    }
+    .AlreadyC{
+        width: 62%;
+    }
+    .GetStarted{
+        width: 77%;
+    }
+    form>input{
+        height: 38px;
+    }
+   
+}
+@media (max-width: 402px){
+    .clicKing{
+        font-size: 80%;
+    }
+    .GetStarted{
+        width: 83%;
+    }
+}
+@media (max-width: 375px){
+    .alreadyHere{
+        font-size: 12px;
+    }
+    .already{
+        font-size: 12px;
+    }
+}

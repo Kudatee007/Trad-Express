@@ -1,0 +1,309 @@
+.LandLand{
+    height: 583px;
+    background-color: #FFFFFF;
+    width: 100%;
+    
+}
+.LandLand>h1{
+    text-align: center;
+    padding-top: 42px;
+    color: #26093A;
+    padding-bottom: 85px;
+}
+.LandingPage5{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.union1{
+    position: relative;
+}
+.union2{
+    position: relative;
+}
+.union3{
+    position: relative;
+}
+.union11{
+    position: absolute;
+    padding: 40px;
+    
+}
+.union11>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 35ch;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+
+.union22{
+    position: absolute;
+    padding: 40px;
+}
+.union22>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 35ch;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+.union33{
+    position: absolute;
+    padding: 40px;
+}
+.union33>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 35ch;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+.ireti{
+    display: flex;
+    align-items: center;
+}
+.ireti>img{
+    margin-right: 20px;
+}
+.bayo{
+    display: flex;
+    align-items: center;
+}
+.bayo>img{
+    margin-right: 20px;
+}
+.olagoke{
+    display: flex;
+    align-items: center;
+}
+.olagoke>img{
+    margin-right: 20px;
+}
+.im{
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .im{
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+    .union11{
+        padding: 25px;
+    }
+    .union22{
+        padding: 25px;
+    }
+    .union33{
+        padding: 25px;
+    }
+    .ireti>img{
+        margin-left: 35px;
+    }
+    .bayo>img{
+        margin-left: 35px;
+    }
+    .olagoke>img{
+        margin-left: 35px;
+    }
+}
+@media (max-width: 950px) {
+    .union11>p{
+        font-size: 13px;
+    }
+    .union22>p{
+        font-size: 13px;
+    }
+    .union33>p{
+        font-size: 13px;
+    }
+    .ireti>img{
+        width: 70px;
+    }
+    .bayo>img{
+        width: 70px;
+    }
+    .olagoke>img{
+        width: 70px;
+    }
+    .ireti>div>h3{
+        font-size: 25px;
+    }
+    .ireti>div>p{
+        font-size: 14px;
+    }
+    .bayo>div>h3{
+        font-size: 25px;
+    }
+    .bayo>div>p{
+        font-size: 14px;
+    }
+    .olagoke>div>h3{
+        font-size: 25px;
+    }
+    .olagoke>div>p{
+        font-size: 14px;
+    }
+    .grp{
+        width: 25px;
+    }
+    .union11>p{
+        margin-left: 10%;
+    } 
+    .union22>p{
+        margin-left: 10%;
+    } 
+    .union33>p{
+        margin-left: 10%;
+    } 
+    .LandLand{
+        height: 510px;
+    }
+}
+@media (max-width: 870px) {
+    .union11>p{
+        margin-left: 6%;
+    } 
+    .union22>p{
+        margin-left: 6%;
+    } 
+    .union33>p{
+        margin-left: 6%;
+    } 
+    .LandLand{
+        height: 480px;
+    }
+}
+@media (max-width: 800px) {
+    .union11>p{
+        font-size: 12px;
+        margin-left: 5%;
+    } 
+    .union22>p{
+        font-size: 12px;
+        margin-left: 5%;
+    } 
+    .union33>p{
+        font-size: 12px;
+        margin-left: 5%;
+    } 
+    .LandLand{
+        height: 470px;
+    }
+}
+@media (max-width: 766px) {
+    .LandingPage5{
+        flex-direction: column;
+    }
+    .LandLand{
+        height: 1250px;
+    }
+    .im{
+        width: 75%;
+        margin-left: 60px;
+        
+    }
+    .ireti{
+        margin-left: 50px;
+        padding-bottom: 60px;
+    }
+    .bayo{
+        margin-left: 50px;
+        padding-bottom: 60px;
+    }
+    .olagoke{
+        margin-left: 50px;
+   
+    }
+    .grp{
+        margin-left: 66px;
+    }
+    .union11>p{
+        padding: 8px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    .union22>p{
+        padding: 8px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    .union33>p{
+        padding: 8px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 440px) {
+    .im{
+        width: 70%;
+        margin-left: 66px;
+        
+    }
+    .union11>p{
+        margin-left: 75px;
+        font-size: 13.7px;
+    }
+    .union22>p{
+        margin-left: 75px;
+        font-size: 13.7px;
+    }
+    .union33>p{
+        margin-left: 75px;
+        font-size: 13.7px;
+    }
+    .grp{
+        margin-left: 60px;
+    }
+    .LandLand{
+        height: 1200px;
+    }
+}
+@media (max-width: 440px) {
+    .union11>p{
+        margin-left: 65px;
+    }
+    .union22>p{
+        margin-left: 65px;
+    }
+    .union33>p{
+        margin-left: 65px;
+    }
+    .grp{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 376px) {
+    .union11>p{
+        font-size: 12.8px;
+    }
+    .union22>p{
+        font-size: 12.8px;
+    }
+    .union33>p{
+        font-size: 12.8px;
+    }
+    .LandLand{
+        height: 1100px;
+    }
+ 
+   
+}
+
