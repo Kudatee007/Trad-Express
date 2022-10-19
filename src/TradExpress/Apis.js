@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './Apis.css'
-import redarrow from './TradExpress/img/redarrow.png'
-import greenarrow from './TradExpress/img/greenarrow.png'
+import redarrow from './img/redarrow.png'
+import greenarrow from './img/greenarrow.png'
 
 const Apis = () => {
     const [data, setData] = useState({})

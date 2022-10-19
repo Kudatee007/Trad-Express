@@ -1,5 +1,5 @@
 import React from 'react'
-import message from './TradExpress/img/messageicon.svg'
+import message from './img/messageicon.svg'
 import './VerifyMail.css'
 
 const VerifyMail = ({username}) => {
